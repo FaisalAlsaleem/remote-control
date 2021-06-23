@@ -1,0 +1,60 @@
+:root {
+	--bg: #e3e4e8;
+	--bgT: #e3e4e800;
+	--fg: #17181c;
+	--inputBg: #fff;
+	--handleBg: #255ff4;
+	--handleDownBg: #0b46da;
+	--handleTrackBg: #5583f6;
+	font-size: calc(16px + (32 - 16)*(100vw - 320px)/(2560 - 320));
+}
+body, .range, .range__counter {
+	display: flex;
+	background-image: url(proj4.jpg);
+	background-repeat: no-repeat;
+
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 3px solid skyblue; 
+  margin-left: 1000%;
+  margin-top: 300%;
+  width: 300%;
+    height: 5em;
+
+}
+.button2 {
+  background-color: white;
+  color: black;
+  border: 3px solid #4CAF50; /* Green */
+  margin-left: 1000%;
+  width: 300%;
+  height: 5em;
+
+}
+.button3 {
+  background-color: white;
+  color: black;
+  border: 3px solid #4CAF50; /* Green */
+  margin-left: 1000%;
+  width: 300%;
+  height: 5em;
+
+}
+.button4 {
+  background-color: white;
+  color: black;
+  border: 3px solid black; 
+  margin-left: 1000%;
+  width: 300%;
+  height: 5em;
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 3px solid red;
+  margin-left: 1000%;
+  width: 300%;
+  height: 5em;
+}

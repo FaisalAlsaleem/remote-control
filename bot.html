@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="bot.css">
+
+  <meta charset="utf-8">
+  <title>
+    Robot Movement
+  </title>
+</head>
+<style>
+input:hover {
+  background-color: whitesmoke;
+}
+</style>
+
+<body>
+
+
+  <form action="connection.php" method="POST">
+   
+   <div class="slidecontainer">
+
+   
+ <p>
+    <input type="submit" id="forward" class= "button1" name="nxtmv" value="Forward" onclick="forward()">
+  <br></p>
+
+ <p>
+    <input type="submit" id="nxtmv" class= "button2" name="nxtmv" value="Left" onclick="left()">
+  <br></p>
+
+<p>
+  <input type="submit" id="nxtmv" class= "button3" name="nxtmv" value="Right" onclick="right()">
+  <br></p>
+
+
+<p>
+  <input type="submit" id="nxtmv" class= "button4" name="nxtmv" value="Back" onclick="back()">
+ <br></p>
+  
+<p>
+  <input type="submit" id="nxtmv" class= "button5" name="nxtmv" value="Stop" onclick="stop()">
+  <br></p>
+  
+
+
+</div>
+
+
+  
+ </form> 
+
+
+
+
+<script>
+function forward(){
+  alert("Moving Forward")
+}
+
+function left(){
+  alert("Turning Left")
+}
+
+function right(){
+  alert("Turning Right")
+}
+
+function back(){
+  alert("Going Back")
+}
+
+function stop(){
+  alert("Stopping")
+}
+
+
+
+</script>
+
+
+</body>
+</html>
